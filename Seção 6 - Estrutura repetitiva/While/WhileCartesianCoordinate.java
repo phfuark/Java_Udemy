@@ -6,7 +6,8 @@ public class WhileCartesianCoordinate {
         double x = myScanner.nextDouble();
         System.out.print("Digite um y: ");
         double y = myScanner.nextDouble();
-        
+
+
         while (x != 0.0 || y != 0){
             if (x > 0.0 && y > 0.0){
                 System.out.println("Q1");
